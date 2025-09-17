@@ -91,7 +91,6 @@ import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 import { VscAzure } from "react-icons/vsc";
 import { BiLogoVisualStudio } from "react-icons/bi";
 
-
 export const resumeLink =
   "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
 export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
@@ -531,7 +530,7 @@ export const projects = [
     id: "project-1",
     title: "Kids Management System",
     link: "https://kidsinkare.com/",
-    image: "BSC.devAgency/images/project_1.png",
+    image: "./images/project_1.png",
     content:
       "Our Child Care Management System unifies multi-center operations with automated attendance, integrated child and financial management, secure access controls, and an intuitive website with program details, staff profiles, photos, and simple contact options.",
     stack: [
@@ -561,7 +560,7 @@ export const projects = [
     id: "project-2",
     title: "Wolf machines",
     link: "https://w-dos0.github.io/wolf-machines/",
-    image: "BSC.devAgency/images/project_2.png",
+    image: "./images/project_2.png",
     content:
       "An industrial cockpit for smart machine maintenance and Industry 4.0 solutions.",
     stack: [
@@ -596,7 +595,7 @@ export const projects = [
     id: "project-3",
     title: "Hospital Management System",
     link: "https://medicahospitals.netlify.app/",
-    image: "BSC.devAgency/images/project_3.png",
+    image: "./images/project_3.png",
     content:
       "A full-stack hospital management and appointment booking platform built with the MERN stack. Provides a seamless experience for patients, doctors, and administrators with appointment scheduling, test booking, medical records, and authentication.",
     stack: [
@@ -626,7 +625,7 @@ export const projects = [
     id: "project-4",
     title: "EdTech (Learning Now)",
     link: "https://learningnow.online/",
-    image: "BSC.devAgency/images/project_4.png",
+    image: "./images/project_4.png",
     content:
       "Create. Enroll. Learn. Educators upload courses, and students join using Stripe to learn anything, anytime.",
     stack: [
@@ -661,7 +660,7 @@ export const projects = [
     id: "project-5",
     title: "Library Website",
     link: "https://library-management-website.netlify.app/",
-    image: "BSC.devAgency/images/project_5.png",
+    image: "./images/project_5.png",
     content:
       "Executed frontend development for a Library Management System Website, enhancing book tracking, user management, and overall library experience. Designed a user-friendly interface facilitating efficient processes for librarians and patrons.",
     stack: [
@@ -691,7 +690,7 @@ export const projects = [
     id: "project-6",
     title: "CFMOTO Brazil | MotorSync",
     link: "https://cfmoto.com.br/",
-    image: "BSC.devAgency/images/project_6.png",
+    image: "./images/project_6.png",
     content:
       "Developed the CFMOTO Brazil website to showcase off-road vehicles and dealer sites. Designed interfaces for Home, Product Types, Categories, Product Details, Accessories, About Us, Tech Assist, and Contact pages.",
     stack: [
@@ -731,7 +730,7 @@ export const projects = [
     id: "project-7",
     title: "Online Auction System",
     link: "https://auction.ihavetech.com/",
-    image: "BSC.devAgency/images/project_7.png",
+    image: "./images/project_7.png",
     content:
       "The Online Auction System is a full-stack web app enabling sellers to list items and buyers to place real-time bids, with secure authentication, live updates, bidding history, and countdown timers for a seamless auction experience.",
     stack: [
@@ -776,7 +775,7 @@ export const projects = [
     id: "project-8",
     title: "MEETUP",
     link: "https://meetup.ayanabha.life/",
-    image: "BSC.devAgency/images/project_8.png",
+    image: "./images/project_8.png",
     content:
       "MeetUp is a WebRTC-based video conferencing app that allows users to create rooms with multiple people and chat in real-time.",
     stack: [
@@ -811,7 +810,7 @@ export const projects = [
     id: "project-9",
     title: "routeperfect",
     link: "https://www.routeperfect.com/",
-    image: "BSC.devAgency/images/project_9.png",
+    image: "./images/project_9.png",
     content: "routeperfect.com A traveling booking website made in wordpress and Customized admin system. There is another application associated with the same product. Can't disclose due to NDA.",
     stack: [
       {
@@ -845,7 +844,7 @@ export const projects = [
     id: "project-10",
     title: "Azoom E-Commerce Website",
     link: "https://www.azoom.co.uk/",
-    image: "BSC.devAgency/images/project_10.png",
+    image: "./images/project_10.png",
     content: "A fully functional e-commerce website providing a seamless shopping experience with product catalogs, secure payments, and a user-friendly interface.",
     stack: [
       {

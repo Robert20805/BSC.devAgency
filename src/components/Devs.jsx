@@ -8,7 +8,7 @@ const DevsAndProject = () => {
       id: 1,
       name: "Alex Thompson",
       role: "Lead Frontend Developer",
-      photo: "BSC.devAgency/images/dev_1.png",
+      photo: "./images/dev_1.png",
       quote: "Working with DevCraft Agency has been an incredible journey. The collaborative environment and cutting-edge projects have pushed my skills to new heights. Every day brings exciting challenges and innovative solutions.",
       location: "San Francisco, USA"
     },
@@ -16,7 +16,7 @@ const DevsAndProject = () => {
       id: 2,
       name: "Elena Petrov",
       role: "Backend Systems Architect",
-      photo: "BSC.devAgency/images/dev_2.png",
+      photo: "./images/dev_2.png",
       quote: "The technical excellence and attention to detail at DevCraft Agency is unmatched. I've had the opportunity to work on complex enterprise solutions that have made a real impact in the industry.",
       location: "Toronto, Canada"
     },
@@ -24,7 +24,7 @@ const DevsAndProject = () => {
       id: 3,
       name: "Ahmed Hassan",
       role: "Full-Stack Developer",
-      photo: "BSC.devAgency/images/dev_3.png",
+      photo: "./images/dev_3.png",
       quote: "Being part of this global team has been transformative. The diversity of perspectives and the quality of mentorship here has accelerated my growth as a developer beyond what I thought possible.",
       location: "Cairo, Egypt"
     },
@@ -32,7 +32,7 @@ const DevsAndProject = () => {
       id: 4,
       name: "Lirantal Rodriguez-Mendez",
       role: "DevOps Engineer",
-      photo: "BSC.devAgency/images/dev_4.jpeg",
+      photo: "./images/dev_4.jpeg",
       quote: "The infrastructure challenges at DevCraft Agency have been incredibly rewarding. Building scalable systems and ensuring seamless deployments has allowed me to grow both technically and as a team leader.",
       location: "Vancouver, Canada"
     }
