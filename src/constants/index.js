@@ -90,16 +90,6 @@ import { FaGolang } from "react-icons/fa6";
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 import { VscAzure } from "react-icons/vsc";
 import { BiLogoVisualStudio } from "react-icons/bi";
-import project1Img from "../assets/project_1.png";
-import project2Img from "../assets/project_2.png";
-import project3Img from "../assets/project_3.png";
-import project4Img from "../assets/project_4.png";
-import project5Img from "../assets/project_5.png";
-import project6Img from "../assets/project_6.png";
-import project7Img from "../assets/project_7.png";
-import project8Img from "../assets/project_8.png";
-import project9Img from "../assets/project_9.png";
-import project10Img from "../assets/project_10.png";
 
 
 export const resumeLink =
