@@ -38,7 +38,7 @@ const Navbar = () => {
           alt="Parth Mittal"
           className="w-[60px] h-[70px]"
         />
-        <span className="text-gray-900 font-poppins font-medium text-[20px] pb-2">
+        <span className="text-gray-900 font-poppins font-medium text-[20px] pb-2 text-white-gradient">
           Build Success Cooperation
         </span>
       </a>
@@ -52,6 +52,7 @@ const Navbar = () => {
             font-normal
             cursor-pointer
             text-[16px]
+            text-white-gradient
             ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}
             text-gray-900 hover:text-teal-600`}
             onClick={() => scrollToSection(nav.id)}
@@ -82,6 +83,7 @@ const Navbar = () => {
                 font-normal
                 cursor-pointer
                 text-[16px]
+                text-white-gradient
                 ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}
                 text-white`} >
                 <a href={`#${nav.id}`}>{nav.title}</a>

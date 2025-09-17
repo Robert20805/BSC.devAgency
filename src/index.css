@@ -58,6 +58,23 @@
   text-fill-color: transparent;
 }
 
+.text-white-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #6c63ff 0%,
+    #5a5cf4 25%,
+    #4895ef 50%,
+    #38b6ff 75%,
+    #00c3ff 100%
+  );
+  /* For text gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
