@@ -3,6 +3,7 @@ import LetsConnect from "./LetsConnect";
 import Lottie from "react-lottie-player";
 import animationData from "../lotties/person-coding.json";
 import { aboutMe } from "../constants";
+import team from "../assets/team.png";
 
 
 // lottie config
@@ -50,7 +51,7 @@ const Hero = () => {
         <div className="relative z-index-[5] h-[90%] w-[85%]">
           {/* <Lottie {...defaultOptions} /> */}
           <img 
-            src="/src/assets/team.png" 
+            src={team} 
             alt="DevCraft Agency Team" 
             className="w-full h-full object-cover rounded-lg shadow-2xl"
           />

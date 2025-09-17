@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import styles from "../style";
+import remoteProvider from "../assets/remoteProvider.png";
+import provider1 from "../assets/provider_1.jpeg";
+import provider2 from "../assets/provider_2.jpg";
+import provider3 from "../assets/provider_3.jpg";
+import provider4 from "../assets/provider_4.jpg";
 
 const RemoteProviders = () => {
   const [activeProvider, setActiveProvider] = useState(0);
@@ -63,7 +68,7 @@ const RemoteProviders = () => {
                     We also provide reliable monthly compensation to our remote providers — with transparent terms, clear deliverables, and on‑time payouts. Your contribution is valued, and your efforts are rewarded consistently.
                   </p>
                 </div>
-                <img src="/src/assets/remoteProvider.png" alt="About Us" className="w-1/3 h-auto rounded-lg" />
+                <img src={remoteProvider} alt="About Us" className="w-1/3 h-auto rounded-lg" />
               </div>
               
 
@@ -118,7 +123,7 @@ const RemoteProviders = () => {
                 onClick={() => setActiveProvider(0)}
               >
                 <img 
-                  src="/src/assets/provider_1.jpeg" 
+                  src={provider1} 
                   alt="Remote Provider 1" 
                   className={`w-full object-cover rounded-lg shadow-lg transition-all duration-300 ${
                     activeProvider === 0 
@@ -138,7 +143,7 @@ const RemoteProviders = () => {
                 onClick={() => setActiveProvider(1)}
               >
                 <img 
-                  src="/src/assets/provider_2.jpg" 
+                  src={provider2} 
                   alt="Remote Provider 2" 
                   className={`w-full object-cover rounded-lg shadow-lg transition-all duration-300 ${
                     activeProvider === 1 
@@ -158,7 +163,7 @@ const RemoteProviders = () => {
                 onClick={() => setActiveProvider(2)}
               >
                 <img 
-                  src="/src/assets/provider_3.jpg" 
+                  src={provider3} 
                   alt="Remote Provider 3" 
                   className={`w-full object-cover rounded-lg shadow-lg transition-all duration-300 ${
                     activeProvider === 2 
@@ -177,7 +182,7 @@ const RemoteProviders = () => {
                 onClick={() => setActiveProvider(3)}
               >
                 <img 
-                  src="/src/assets/provider_4.jpg" 
+                  src={provider4} 
                   alt="Remote Provider 3" 
                   className={`w-full object-cover rounded-lg shadow-lg transition-all duration-300 ${
                     activeProvider === 3

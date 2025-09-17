@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import { socialMedia, aboutMe } from "../constants";
-// import { bitcoin } from "../assets/bitcoin.png";
+import  bitcoin from "../assets/bitcoin.jpeg";
 import { layout } from "../style";
 import { resumeLink, repoLink } from "../constants";
 import { AiFillGithub } from "react-icons/ai";
@@ -41,7 +41,7 @@ const Footer = () => (
         </div>
         <div className="md:ml-auto mt-10 md:mt-0">
           <img
-            src="src/assets/bitcoin.jpeg"
+            src={bitcoin}
             alt="Parth Mittal"
             className="w-[200px] h-[200px] border-2 border-teal-200 relative z-[5] rounded-full"
           />

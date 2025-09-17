@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import styles from "../style";
+import whoWeAre from "../assets/whoWeAre.png";
+
 
 const AboutUs = () => {
   const [activeProvider, setActiveProvider] = useState(0);
@@ -50,7 +52,7 @@ const AboutUs = () => {
           >
             <div className="text-left space-y-6">
               <div className="flex md:flex-row flex-col items-center gap-4">
-                <img src="/src/assets/whoWeAre.png" alt="About Us" className="w-1/2 h-auto rounded-lg" />
+                <img src={whoWeAre} alt="About Us" className="w-1/2 h-auto rounded-lg" />
                 <div>
                   <p className={`${styles.paragraph} text-[18px] leading-[32px]`}>
                     As a thriving IT agency with over a decade of proven expertise in software development, we have built lasting partnerships with talented remote collaborators across multiple countries, fostering relationships based on mutual respect and shared success.
