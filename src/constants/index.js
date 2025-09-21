@@ -737,46 +737,35 @@ export const projects = [
   },
   {
     id: "project-7",
-    title: "Online Auction System",
-    link: "https://auction.ihavetech.com/",
-    image: "./images/project_7.png",
-    content:
-      "The Online Auction System is a full-stack web app enabling sellers to list items and buyers to place real-time bids, with secure authentication, live updates, bidding history, and countdown timers for a seamless auction experience.",
+    title: "routeperfect",
+    link: "https://www.routeperfect.com/",
+    image: "./images/project_9.png",
+    content: "routeperfect.com A traveling booking website made in wordpress and Customized admin system. There is another application associated with the same product. Can't disclose due to NDA.",
     stack: [
+      {
+        id: "icon-1",
+        icon: SiRubyonrails,
+        name: "Ruby on Rails",
+      },
+      {
+        id: "icon-2",
+        icon: SiBootstrap,
+        name: "Bootstrap",
+      },
+      {
+        id: "t-2",
+        icon: SiMysql,
+        name: "MySQL",
+      },
       {
         id: "icon-1",
         icon: SiReact,
         name: "React",
       },
       {
-        id: "icon-3",
-        icon: SiWeb3Dotjs,
-        name: "Web3.js",
-      },
-      {
-        id: "icon-4",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
-      {
-        id: "icon-5",
-        icon: FaHardHat,
-        name: "HardHat",
-      },
-      {
-        id: "icon-6",
-        icon: SiIpfs,
-        name: "IPFS",
-      },
-      {
-        id: "icon-7",
-        icon: SiArduino,
-        name: "Arduino",
-      },
-      {
-        id: "icon-8",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol",
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "Tailwind CSS",
       },
     ],
   },
@@ -815,40 +804,7 @@ export const projects = [
       },
     ],
   },
-  {
-    id: "project-9",
-    title: "routeperfect",
-    link: "https://www.routeperfect.com/",
-    image: "./images/project_9.png",
-    content: "routeperfect.com A traveling booking website made in wordpress and Customized admin system. There is another application associated with the same product. Can't disclose due to NDA.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
-      {
-        id: "t-2",
-        icon: SiMysql,
-        name: "MySQL",
-      },
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS",
-      },
-    ],
-  }
+  
 ];
 
 // Add links to blogs here
