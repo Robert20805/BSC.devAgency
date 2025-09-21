@@ -658,31 +658,40 @@ export const projects = [
   },
   {
     id: "project-5",
-    title: "Library Website",
-    link: "https://library-management-website.netlify.app/",
-    image: "./images/project_5.png",
-    content:
-      "Executed frontend development for a Library Management System Website, enhancing book tracking, user management, and overall library experience. Designed a user-friendly interface facilitating efficient processes for librarians and patrons.",
+    title: "Azoom E-Commerce Website",
+    link: "https://www.azoom.co.uk/",
+    image: "./images/project_10.png",
+    content: "A fully functional e-commerce website providing a seamless shopping experience with product catalogs, secure payments, and a user-friendly interface.",
     stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
-      },
       {
         id: "icon-1",
         icon: SiReact,
         name: "React",
       },
       {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "Tailwind CSS",
+      },
+      {
         id: "icon-3",
         icon: SiNextdotjs,
         name: "Next.js",
+      },
+      {
+        id: "icon-4",
+        icon: SiIpfs,
+        name: "IPFS",
+      },
+      {
+        id: "icon-5",
+        icon: SiSolidity,
+        name: "Solidity",
+      },
+      {
+        id: "icon-6",
+        icon: IoIosNotificationsOutline,
+        name: "Push Protocol",
       },
     ],
   },
@@ -837,45 +846,6 @@ export const projects = [
         id: "icon-2",
         icon: SiTailwindcss,
         name: "Tailwind CSS",
-      },
-    ],
-  },
-  {
-    id: "project-10",
-    title: "Azoom E-Commerce Website",
-    link: "https://www.azoom.co.uk/",
-    image: "./images/project_10.png",
-    content: "A fully functional e-commerce website providing a seamless shopping experience with product catalogs, secure payments, and a user-friendly interface.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS",
-      },
-      {
-        id: "icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js",
-      },
-      {
-        id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS",
-      },
-      {
-        id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
-      {
-        id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol",
       },
     ],
   }
